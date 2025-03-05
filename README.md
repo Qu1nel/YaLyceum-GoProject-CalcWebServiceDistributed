@@ -385,7 +385,7 @@ curl -X 'POST' \
 
 <div align="center">
   <div>
-    <img src=".github/assets/entity_project" width=620px>
+    <img src=".github/assets/entity_project.png" width=620px>
   </div>
 </div>
 
