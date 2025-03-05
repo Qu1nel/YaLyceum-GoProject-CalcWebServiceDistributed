@@ -1,4 +1,4 @@
-module CalcService
+module CalcServiceDistributed
 
 go 1.23.4
 
