@@ -1,8 +1,9 @@
 package routers
 
 import (
-	"github.com/Qu1nel/YaLyceum-GoProject-CalcWebServiceDistributed/internal/models"
-	"github.com/Qu1nel/YaLyceum-GoProject-CalcWebServiceDistributed/internal/pkg/customError"
+	"YaLyceum/internal/models"
+	"YaLyceum/internal/pkg/customError"
+
 	"github.com/gin-gonic/gin"
 )
 

@@ -11,8 +11,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Qu1nel/YaLyceum-GoProject-CalcWebServiceDistributed/internal/models"
-	config2 "github.com/Qu1nel/YaLyceum-GoProject-CalcWebServiceDistributed/internal/pkg/config"
+	"YaLyceum/internal/models"
+
+	config2 "YaLyceum/internal/pkg/config"
+
 	"go.uber.org/fx"
 	"go.uber.org/zap"
 )

@@ -3,8 +3,9 @@ package db
 import (
 	"errors"
 
-	"github.com/Qu1nel/YaLyceum-GoProject-CalcWebServiceDistributed/internal/models"
-	"github.com/Qu1nel/YaLyceum-GoProject-CalcWebServiceDistributed/internal/orchestrator/repository"
+	"YaLyceum/internal/models"
+	"YaLyceum/internal/orchestrator/repository"
+
 	"gorm.io/gorm"
 	"gorm.io/gorm/clause"
 )

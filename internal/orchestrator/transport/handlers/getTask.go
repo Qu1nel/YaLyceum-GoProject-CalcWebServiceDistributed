@@ -1,7 +1,8 @@
 package handlers
 
 import (
-	"github.com/Qu1nel/YaLyceum-GoProject-CalcWebServiceDistributed/internal/models"
+	"YaLyceum/internal/models"
+
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
 )

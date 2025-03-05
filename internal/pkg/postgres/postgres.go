@@ -3,7 +3,8 @@ package postgres
 import (
 	"fmt"
 
-	"github.com/Qu1nel/YaLyceum-GoProject-CalcWebServiceDistributed/internal/pkg/config"
+	"YaLyceum/internal/pkg/config"
+
 	_ "github.com/lib/pq"
 	"github.com/pressly/goose"
 	"gorm.io/driver/postgres"
@@ -16,9 +17,10 @@ func New(config config.Config) (*gorm.DB, error) {
 		Logger:         logger.Default.LogMode(logger.Info),
 		TranslateError: true,
 	}
-	db, err := gorm.Open(postgres.New(postgres.Config{
-		DSN:                  fmt.Sprintf("user=%s password=%s dbname=%s host=%s port=%s sslmode=disable", config.PostgresUser, config.PostgresPassword, config.PostgresDB, config.PostgresHost, config.PostgresPort),
-		PreferSimpleProtocol: true,
+	db, err := gorm.Open(
+		postgres.New(postgres.Config{
+			DSN:                  fmt.Sprintf("user=%s password=%s dbname=%s host=%s port=%s sslmode=disable", config.PostgresUser, config.PostgresPassword, config.PostgresDB, config.PostgresHost, config.PostgresPort),
+			PreferSimpleProtocol: true,
 	}), gormConfig)
 
 	if err != nil {

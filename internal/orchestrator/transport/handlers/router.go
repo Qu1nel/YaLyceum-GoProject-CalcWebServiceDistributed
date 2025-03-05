@@ -1,7 +1,8 @@
 package handlers
 
 import (
-	"github.com/Qu1nel/YaLyceum-GoProject-CalcWebServiceDistributed/internal/orchestrator/transport/routers"
+	"YaLyceum/internal/orchestrator/transport/routers"
+
 	"go.uber.org/zap"
 )
 

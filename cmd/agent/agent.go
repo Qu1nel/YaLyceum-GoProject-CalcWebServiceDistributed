@@ -1,8 +1,9 @@
 package main
 
 import (
-	"github.com/Qu1nel/YaLyceum-GoProject-CalcWebServiceDistributed/app/agent"
-	agent2 "github.com/Qu1nel/YaLyceum-GoProject-CalcWebServiceDistributed/internal/agent"
+	"YaLyceum/app/agent"
+	agent2 "YaLyceum/internal/agent"
+
 	"go.uber.org/fx"
 )
 

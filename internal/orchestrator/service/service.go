@@ -5,11 +5,12 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/Qu1nel/YaLyceum-GoProject-CalcWebServiceDistributed/internal/models"
-	"github.com/Qu1nel/YaLyceum-GoProject-CalcWebServiceDistributed/internal/orchestrator/repository"
-	"github.com/Qu1nel/YaLyceum-GoProject-CalcWebServiceDistributed/internal/pkg/calculator"
-	"github.com/Qu1nel/YaLyceum-GoProject-CalcWebServiceDistributed/internal/pkg/customError"
-	"github.com/Qu1nel/YaLyceum-GoProject-CalcWebServiceDistributed/internal/pkg/token"
+	"YaLyceum/internal/models"
+	"YaLyceum/internal/orchestrator/repository"
+	"YaLyceum/internal/pkg/calculator"
+	"YaLyceum/internal/pkg/customError"
+	"YaLyceum/internal/pkg/token"
+
 	"go.uber.org/zap"
 )
 

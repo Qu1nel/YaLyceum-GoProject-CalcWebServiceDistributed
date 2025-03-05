@@ -3,6 +3,7 @@ package logger
 import (
 	"errors"
 	"fmt"
+
 	"go.uber.org/zap/zapcore"
 
 	"go.uber.org/zap"

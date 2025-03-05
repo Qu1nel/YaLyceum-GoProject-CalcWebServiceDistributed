@@ -1,6 +1,6 @@
 package handlers
 
-import "github.com/Qu1nel/YaLyceum-GoProject-CalcWebServiceDistributed/internal/models"
+import "YaLyceum/internal/models"
 
 type CreateExpressionReq struct {
 	Expression *string `json:"expression" binding:"required"`

@@ -1,6 +1,6 @@
 package repository
 
-import "github.com/Qu1nel/YaLyceum-GoProject-CalcWebServiceDistributed/internal/models"
+import "YaLyceum/internal/models"
 
 type Repo interface {
 	CreateExpression(expression string) (int64, error)

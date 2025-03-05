@@ -1,7 +1,8 @@
 package main
 
 import (
-	"github.com/Qu1nel/YaLyceum-GoProject-CalcWebServiceDistributed/app/orchestrator"
+	"YaLyceum/app/orchestrator"
+
 	"go.uber.org/fx"
 )
 

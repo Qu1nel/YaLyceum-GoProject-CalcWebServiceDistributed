@@ -1,12 +1,13 @@
 package config
 
 import (
-	"github.com/ilyakaznacheev/cleanenv"
 	"time"
+
+	"github.com/ilyakaznacheev/cleanenv"
 )
 
 type Config struct {
-	ServerPort         int           `env:"SERVER_PORT" env-default:"9090"`
+	ServerPort         int           `env:"SERVER_PORT" env-default:"8989"`
 	ServerHost         string        `env:"SERVER_HOST" env-default:"0.0.0.0"`
 	ComputingPower     int           `env:"COMPUTING_POWER" env-default:"5"`
 	TimeAddiction      time.Duration `env:"TIME_ADDITION_MS" env-default:"2000ms"`
@@ -19,7 +20,7 @@ type Config struct {
 	TimeSquareRoot     time.Duration `env:"TIME_SQUARE_ROOT_MS"env-default:"2000ms"`
 	PostgresUser       string        `env:"POSTGRES_USER" env-default:"root"`
 	PostgresPassword   string        `env:"POSTGRES_PASSWORD" env-default:"123"`
-	PostgresDB         string        `env:"POSTGRES_DB" env-default:"testdatabase"`
+	PostgresDB         string        `env:"POSTGRES_DB" env-default:"vi_database"`
 	PostgresHost       string        `env:"POSTGRES_HOST" env-default:"localhost"`
 	PostgresPort       string        `env:"POSTGRES_PORT" env-default:"5432"`
 }

@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Qu1nel/YaLyceum-GoProject-CalcWebServiceDistributed/internal/pkg/config"
+	"YaLyceum/internal/pkg/config"
 )
 
 type Cache struct {

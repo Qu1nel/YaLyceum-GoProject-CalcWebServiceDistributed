@@ -7,12 +7,13 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/Qu1nel/YaLyceum-GoProject-CalcWebServiceDistributed/internal/models"
-	"github.com/Qu1nel/YaLyceum-GoProject-CalcWebServiceDistributed/internal/orchestrator/repository"
-	"github.com/Qu1nel/YaLyceum-GoProject-CalcWebServiceDistributed/internal/pkg/cache"
-	"github.com/Qu1nel/YaLyceum-GoProject-CalcWebServiceDistributed/internal/pkg/counter"
-	"github.com/Qu1nel/YaLyceum-GoProject-CalcWebServiceDistributed/internal/pkg/customError"
-	"github.com/Qu1nel/YaLyceum-GoProject-CalcWebServiceDistributed/internal/pkg/token"
+	"YaLyceum/internal/models"
+	"YaLyceum/internal/orchestrator/repository"
+	"YaLyceum/internal/pkg/cache"
+	"YaLyceum/internal/pkg/counter"
+	"YaLyceum/internal/pkg/customError"
+	"YaLyceum/internal/pkg/token"
+
 	"go.uber.org/zap"
 	"golang.org/x/sync/errgroup"
 )

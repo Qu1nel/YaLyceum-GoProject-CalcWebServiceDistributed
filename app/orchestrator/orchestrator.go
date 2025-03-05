@@ -1,18 +1,19 @@
 package orchestrator
 
 import (
-	"github.com/Qu1nel/YaLyceum-GoProject-CalcWebServiceDistributed/internal/orchestrator/repository"
-	"github.com/Qu1nel/YaLyceum-GoProject-CalcWebServiceDistributed/internal/orchestrator/repository/db"
-	"github.com/Qu1nel/YaLyceum-GoProject-CalcWebServiceDistributed/internal/orchestrator/service"
-	"github.com/Qu1nel/YaLyceum-GoProject-CalcWebServiceDistributed/internal/orchestrator/transport"
-	"github.com/Qu1nel/YaLyceum-GoProject-CalcWebServiceDistributed/internal/orchestrator/transport/routers"
-	"github.com/Qu1nel/YaLyceum-GoProject-CalcWebServiceDistributed/internal/pkg/cache"
-	"github.com/Qu1nel/YaLyceum-GoProject-CalcWebServiceDistributed/internal/pkg/calculator"
-	"github.com/Qu1nel/YaLyceum-GoProject-CalcWebServiceDistributed/internal/pkg/config"
-	"github.com/Qu1nel/YaLyceum-GoProject-CalcWebServiceDistributed/internal/pkg/counter"
-	"github.com/Qu1nel/YaLyceum-GoProject-CalcWebServiceDistributed/internal/pkg/http"
-	"github.com/Qu1nel/YaLyceum-GoProject-CalcWebServiceDistributed/internal/pkg/logger"
-	"github.com/Qu1nel/YaLyceum-GoProject-CalcWebServiceDistributed/internal/pkg/postgres"
+	"YaLyceum/internal/orchestrator/repository"
+	"YaLyceum/internal/orchestrator/repository/db"
+	"YaLyceum/internal/orchestrator/service"
+	"YaLyceum/internal/orchestrator/transport"
+	"YaLyceum/internal/orchestrator/transport/routers"
+	"YaLyceum/internal/pkg/cache"
+	"YaLyceum/internal/pkg/calculator"
+	"YaLyceum/internal/pkg/config"
+	"YaLyceum/internal/pkg/counter"
+	"YaLyceum/internal/pkg/http"
+	"YaLyceum/internal/pkg/logger"
+	"YaLyceum/internal/pkg/postgres"
+
 	"go.uber.org/fx"
 )
 
