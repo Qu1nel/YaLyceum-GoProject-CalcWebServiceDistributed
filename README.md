@@ -133,6 +133,9 @@
     <div>
       <img src=".github/assets/preview3.png" width=580px>
     </div>
+    <div>
+      <img src=".github/assets/preview4.png" width=580px>
+    </div>
   </div>
 </details>
 
@@ -378,7 +381,33 @@ curl -X 'POST' \
 
 ## Документация
 
-...
+Ниже описано первое изображение, на котором отображены основные сущности и их связи.
+
+<div align="center">
+  <div>
+    <img src=".github/assets/entity_project" width=620px>
+  </div>
+</div>
+
+На схеме показаны следующие элементы:
+
+1. **AGENT_SERVICE**:
+   - `agent`: Сервис агента, отвечающий за выполнение задач.
+
+2. **ORCHESTRATOR_SERVICE**:
+   - `orchestrator`: Основной сервис-оркестратор, управляющий работой системы.
+   - `service_started`: Указание на запуск сервиса.
+   - `backend-network`: Связь с бэкенд-сетью.
+   - `postgres_container`: Контейнер с базой данных PostgreSQL.
+
+3. **BACKEND NETWORK**:
+   - `service_healthy`: Состояние сервисов, указывающее на их корректную работу.
+
+4. **TEST NETWORK**:
+   - `tests`: Тестовая среда для проверки работы системы.
+   - `service_completed_successfully`: Указание на успешное завершение работы сервиса.
+
+5. **swagger-ui**: Веб-интерфейс для взаимодействия с API системы.
 
 ## Разработчики
 
