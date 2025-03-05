@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+Dockerfile-test         linguist-language=Dockerfile
+Dockerfile-agent        linguist-language=Dockerfile
+Dockerfile-orchestrator linguist-language=Dockerfile
