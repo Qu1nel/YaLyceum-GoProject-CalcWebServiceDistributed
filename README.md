@@ -381,6 +381,16 @@ curl -X 'POST' \
 
 ## Документация
 
+```mermaid
+graph TD
+    U[Пользователь] -->|POST /calculate| O[Оркестратор]
+    U -->|GET /expressions| O
+    O -->|GET /internal/task| A1[Агент 1]
+    O -->|GET /internal/task| A2[Агент 2]
+    A1 -->|POST /internal/task| O
+    A2 -->|POST /internal/task| O
+```
+
 Ниже описано первое изображение, на котором отображены основные сущности и их связи.
 
 <div align="center">
